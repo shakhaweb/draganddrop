@@ -1,0 +1,26 @@
+.li.over {
+    border: 3px dotted #666;
+}
+
+[draggable] {
+    user-select: none;
+}
+.ul{
+    padding-top: 10px;
+    width: 250px;
+    height: 400px;
+    background-color: #666;
+    border-radius: 10px;
+}
+.li {
+    list-style-type: none;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    background-color: yellow;
+}
